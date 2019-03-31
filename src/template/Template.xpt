@@ -1,0 +1,16 @@
+«DEFINE main FOR simplecodegenerator::Model»
+«EXPAND class FOREACH classes»
+«ENDDEFINE»
+
+«DEFINE class FOR simplecodegenerator::Class»
+	«FILE name + ".java"»
+		public class «this.name»{
+			«EXPAND field FOREACH fields»
+		}
+	«ENDFILE»
+«ENDDEFINE»
+
+
+«DEFINE field FOR simplecodegenerator::Field»
+	«this.accessModifier» «this.type» «this.name» = «this.value»; 
+«ENDDEFINE»

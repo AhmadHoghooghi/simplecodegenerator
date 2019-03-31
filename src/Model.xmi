@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simplecodegenerator:Model
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:simplecodegenerator="http://www.xpand.org/xpand.demo.emf.datamodel"
+    xsi:schemaLocation="http://www.xpand.org/xpand.demo.emf.datamodel metamodel/metamodel.ecore">
+  <classes name="SampleClass">
+    <fields
+        accessModifier="public static final"
+        type="String"
+        name="TEXT1"
+        value="&quot;TEXT1&quot;"/>
+    <fields
+        accessModifier="public static final"
+        type="String"
+        name="TEXT2"
+        value="&quot;TEXT1&quot;"/>
+  </classes>
+</simplecodegenerator:Model>
